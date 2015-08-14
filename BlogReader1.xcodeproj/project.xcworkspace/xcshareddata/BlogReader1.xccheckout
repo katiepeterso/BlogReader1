@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>9CD157F0-3DDC-408A-8DAA-C346A558BBF4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>BlogReader1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>679284909797672AEA35910000C5E0B00D07BB70</key>
@@ -16,7 +16,7 @@
 		<string>https://github.com/katiepeterso/lighthouse.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BlogReader1.xcodeproj/project.xcworkspace</string>
+	<string>BlogReader1.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>679284909797672AEA35910000C5E0B00D07BB70</key>

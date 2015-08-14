@@ -12,11 +12,19 @@
 
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *author;
+@property (nonatomic, strong) NSString *image;
+@property (nonatomic, strong) NSString *date;
+@property (nonatomic, strong) NSURL *url;
 
 // Designated initializer
 - (id) initWithTitle:(NSString *)title;
 
 // Convenience constructor
 + (id) blogPostWithTitle:(NSString *)title;
+
+- (NSURL *) imageURL;
+
+//Date formatter
+- (NSString *) formattedDate;
 
 @end
