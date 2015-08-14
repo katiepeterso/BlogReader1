@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA38DFDD1B7E4BF0007FAFAF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA38DFDC1B7E4BF0007FAFAF /* WebViewController.m */; };
 		AA853C9C1B7D027100A3A95E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA853C9B1B7D027100A3A95E /* main.m */; };
 		AA853C9F1B7D027100A3A95E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA853C9E1B7D027100A3A95E /* AppDelegate.m */; };
 		AA853CA51B7D027100A3A95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA853CA31B7D027100A3A95E /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA38DFDB1B7E4BF0007FAFAF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AA38DFDC1B7E4BF0007FAFAF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		AA853C961B7D027100A3A95E /* BlogReader1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA853C9A1B7D027100A3A95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA853C9B1B7D027100A3A95E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				AA853C9E1B7D027100A3A95E /* AppDelegate.m */,
 				AA853CC61B7D05E100A3A95E /* TableViewController.h */,
 				AA853CC71B7D05E100A3A95E /* TableViewController.m */,
+				AA38DFDB1B7E4BF0007FAFAF /* WebViewController.h */,
+				AA38DFDC1B7E4BF0007FAFAF /* WebViewController.m */,
 				AA853CC91B7D5BF100A3A95E /* BlogPost.h */,
 				AA853CCA1B7D5BF100A3A95E /* BlogPost.m */,
 				AA853CA31B7D027100A3A95E /* Main.storyboard */,
@@ -229,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA853C9F1B7D027100A3A95E /* AppDelegate.m in Sources */,
+				AA38DFDD1B7E4BF0007FAFAF /* WebViewController.m in Sources */,
 				AA853C9C1B7D027100A3A95E /* main.m in Sources */,
 				AA853CC81B7D05E100A3A95E /* TableViewController.m in Sources */,
 				AA853CCB1B7D5BF100A3A95E /* BlogPost.m in Sources */,
@@ -426,6 +432,7 @@
 				AA853CBB1B7D027100A3A95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA853CBC1B7D027100A3A95E /* Build configuration list for PBXNativeTarget "BlogReader1Tests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				AA853CBE1B7D027100A3A95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
