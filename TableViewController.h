@@ -15,5 +15,5 @@ extern NSString *const kURL;
 extern NSString *const kAuthor;
 
 @interface TableViewController : UITableViewController
-@property (strong, nonatomic) NSArray *blogPosts;
+@property (strong, nonatomic) NSMutableArray *blogPosts;
 @end

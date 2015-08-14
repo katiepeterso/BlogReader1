@@ -7,6 +7,7 @@
 //
 
 #import "TableViewController.h"
+#import "BlogPost.h"
 
 NSString *const kTitle = @"title";
 NSString *const kDate = @"date";
@@ -27,9 +28,12 @@ NSString *const kAuthor = @"author";
 //    NSData *jsonData = [NSData dataWithContentsOfURL:blogURL];
 //    NSError *error = nil;
 //    NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&error];
-//    self.blogPosts = [dataDictionary objectForKey:@"posts"];
     
-    self.blogPosts = @[@{kTitle: @"Betting Against Myself",
+    self.blogPosts = [NSMutableArray array];
+    
+//    NSArray *blogPostsArray = [dataDictionary objectForKey:@"posts"];
+    
+    NSArray *blogPostsArray = @[@{kTitle: @"Betting Against Myself",
         kDate: @"07/19/2015",
         kImage: @"coffee.pdf",
         kURL: @"https://katieexpatriated.wordpress.com/2015/07/19/betting-against-myself/",
@@ -131,6 +135,12 @@ NSString *const kAuthor = @"author";
         kURL: @"https://katieexpatriated.wordpress.com/2015/02/12/chinook-days/",
         kAuthor: @"KatieExpatriated"
         }];
+    
+    for (NSDictionary *bpDictionary in blogPostsArray) {
+        BlogPost *blogPost = [BlogPost blogPostWithTitle:[bpDictionary objectForKey:kTitle]];
+        blogPost.author = [bpDictionary objectForKey:kAuthor];
+        [self.blogPosts addObject:blogPost];
+    }
 
 }
 
@@ -155,10 +165,10 @@ NSString *const kAuthor = @"author";
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    NSDictionary *blogPost = [self.blogPosts objectAtIndex:indexPath.row];
+    BlogPost *blogPost = [self.blogPosts objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = [blogPost valueForKey:kTitle];
-    cell.detailTextLabel.text = [blogPost valueForKey:kAuthor];
+    cell.textLabel.text = blogPost.title;
+    cell.detailTextLabel.text = blogPost.author;
     return cell;
 }
 

@@ -14,6 +14,7 @@
 		AA853CAA1B7D027100A3A95E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA853CA81B7D027100A3A95E /* LaunchScreen.xib */; };
 		AA853CB61B7D027100A3A95E /* BlogReader1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA853CB51B7D027100A3A95E /* BlogReader1Tests.m */; };
 		AA853CC81B7D05E100A3A95E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA853CC71B7D05E100A3A95E /* TableViewController.m */; };
+		AA853CCB1B7D5BF100A3A95E /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = AA853CCA1B7D5BF100A3A95E /* BlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AA853CB51B7D027100A3A95E /* BlogReader1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader1Tests.m; sourceTree = "<group>"; };
 		AA853CC61B7D05E100A3A95E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
 		AA853CC71B7D05E100A3A95E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		AA853CC91B7D5BF100A3A95E /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		AA853CCA1B7D5BF100A3A95E /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				AA853C9E1B7D027100A3A95E /* AppDelegate.m */,
 				AA853CC61B7D05E100A3A95E /* TableViewController.h */,
 				AA853CC71B7D05E100A3A95E /* TableViewController.m */,
+				AA853CC91B7D5BF100A3A95E /* BlogPost.h */,
+				AA853CCA1B7D5BF100A3A95E /* BlogPost.m */,
 				AA853CA31B7D027100A3A95E /* Main.storyboard */,
 				AA853CA61B7D027100A3A95E /* Images.xcassets */,
 				AA853CA81B7D027100A3A95E /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				AA853C9F1B7D027100A3A95E /* AppDelegate.m in Sources */,
 				AA853C9C1B7D027100A3A95E /* main.m in Sources */,
 				AA853CC81B7D05E100A3A95E /* TableViewController.m in Sources */,
+				AA853CCB1B7D5BF100A3A95E /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
